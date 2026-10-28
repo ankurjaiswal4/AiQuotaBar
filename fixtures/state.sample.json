@@ -1,0 +1,41 @@
+{
+  "schema": 4,
+  "version": "1.0",
+  "mode": "live",
+  "updated": "10:41",
+  "offline_since": null,
+  "message": null,
+  "menubar": {
+    "text": "Wk 77% · 5h 42%",
+    "state": "warn",
+    "parts": [
+      {"label": "Wk", "value": "77%", "kind": "week", "state": "warn"},
+      {"label": "5h", "value": "42%", "kind": "session", "state": "ok"}
+    ],
+    "suffix": ""
+  },
+  "rings": [
+    {"title": "Weekly · all models", "kind": "week", "used": 77, "left": 23, "state": "warn", "reset": "Resets Sat 16:41", "countdown": "in 3d 6h",
+     "pace": {"subject": "weekly limit", "when": "Thu 13:33", "lead": "about 2 days"}},
+    {"title": "Session · 5h", "kind": "session", "used": 42, "left": 58, "state": "ok", "reset": "Resets 13:51", "countdown": "in 3h 10m", "pace": null}
+  ],
+  "limits": [
+    {"name": "Weekly · Fable", "used": 12, "left": 88, "state": "ok", "reset": "resets Sat 16:41 · in 3d 6h", "pace": null}
+  ],
+  "breakdown": {
+    "since": "Sat 16:41",
+    "rows": [{"name": "Claude Code", "percent": 92}, {"name": "Chats", "percent": 7}, {"name": "Cowork", "percent": 1}]
+  },
+  "activity": [
+    {"project": "my-project", "effort": "high", "minutes": 18, "due": true, "sessions": 2}
+  ],
+  "settings": {
+    "launch_at_login": true,
+    "notifications": true,
+    "menubar": "both",
+    "alert_from": 25,
+    "alert_choices": [25, 50, 70, 90]
+  },
+  "notification_hint": "No alerts? Allow notifications for AiQuotaBar in System Settings › Notifications.",
+  "alerts": ["Session at 90% — resets in 38m"]
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="t">
+  <title id="t">AiQuotaBar</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22283a"/>
+      <stop offset="1" stop-color="#12151f"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#ff6a3d"/>
+    </linearGradient>
+  </defs>
+  <!-- App-icon tile: carries its own background, so it reads on light and dark pages -->
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+  <rect x="1" y="1" width="254" height="254" rx="57" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+  <!-- The menu bar glyph ◐: half-full meter -->
+  <circle cx="128" cy="98" r="44" fill="none" stroke="#f2f4f8" stroke-width="10"/>
+  <path d="M128 54 A44 44 0 0 0 128 142 Z" fill="#f2f4f8"/>
+  <!-- The dropdown bar: 10 cells, 7 used, the last used one running hot -->
+  <g transform="translate(38 176)">
+    <rect x="0"   width="14" height="30" rx="4" fill="#f2f4f8"/>
+    <rect x="18"  width="14" height="30" rx="4" fill="#f2f4f8"/>
+    <rect x="36"  width="14" height="30" rx="4" fill="#f2f4f8"/>
+    <rect x="54"  width="14" height="30" rx="4" fill="#f2f4f8"/>
+    <rect x="72"  width="14" height="30" rx="4" fill="#f2f4f8"/>
+    <rect x="90"  width="14" height="30" rx="4" fill="url(#hot)"/>
+    <rect x="108" width="14" height="30" rx="4" fill="url(#hot)"/>
+    <rect x="126" width="14" height="30" rx="4" fill="#f2f4f8" fill-opacity="0.16"/>
+    <rect x="144" width="14" height="30" rx="4" fill="#f2f4f8" fill-opacity="0.16"/>
+    <rect x="162" width="14" height="30" rx="4" fill="#f2f4f8" fill-opacity="0.16"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Runtime state lives outside the repo (~/.aiquotabar/), but ignore any
+# stray local copies and Python cruft.
+state.json
+__pycache__/
+*.pyc
